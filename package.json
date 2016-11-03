@@ -1,0 +1,11 @@
+{
+	"name":"stock-search",
+	"version":"0.0.1",
+	"author":"zgljl2012",
+	"description":"stock-search",
+	"license":"MIT",
+	"dependencies":{
+		"express":"~4.14.0",
+		"body-parser":"*"
+	}
+}

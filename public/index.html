@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>stock-search</title>
+	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div>
+	<input type="text" id="sId" name="sId" placeholder="input your stock code">
+	<input type="button" onclick="add()" value="add">
+	</div>
+<script>
+var add = function(){
+	var sid = $("#sId").val();
+	$.post("/add", {sid:sid});
+}
+</script>
+</body>
+</html>
